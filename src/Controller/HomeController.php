@@ -39,12 +39,4 @@ class HomeController extends AbstractController
             'title' => 'Pricing',
         ]);
     }
-
-    // #[Route('/test', name: 'app_test')]
-    // public function test(): Response
-    // {
-    //     return $this->render('home/index.html.twig', [
-    //         'controller_name' => 'TEST',
-    //     ]);
-    // }
 }
